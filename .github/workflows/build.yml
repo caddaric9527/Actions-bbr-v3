@@ -80,11 +80,11 @@ jobs:
         working-directory: ./kernel/linux
         run: |
           if [ "${{ matrix.arch }}" = "arm64" ]; then
-            curl -sSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/arm64.config \
+            curl -sSL https://raw.githubusercontent.com/caddaric9527/Actions-bbr-v3/main/arm64.config \
               > .config
             make ARCH=arm64 olddefconfig
           else
-            curl -sSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/x86-64.config \
+            curl -sSL https://raw.githubusercontent.com/caddaric9527/Actions-bbr-v3/main/x86-64.config \
               > .config
             make olddefconfig
           fi

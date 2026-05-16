@@ -1,0 +1,11 @@
+# Query: byJoey/Actions-bbr-v3
+
+4 个结果 - 2 文件
+
+install.sh:
+  111:     BASE_URL="https://api.github.com/repos/byJoey/Actions-bbr-v3/releases"
+  157:     BASE_URL="https://api.github.com/repos/byJoey/Actions-bbr-v3/releases"
+
+.github/workflows/build.yml:
+  83:             curl -sSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/arm64.config \
+  87:             curl -sSL https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/main/x86-64.config \
